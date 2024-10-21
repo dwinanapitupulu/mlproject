@@ -1,0 +1,39 @@
+git clone https://github.com/dwinanapitupulu/bostonhousepricing.git
+
+git config --global user.name dwinaanne
+git config --global user.email "dwinanapitupulu@gmail.com"
+git add xxx.txt
+git add . 
+git push
+
+https://www.youtube.com/watch?v=Rv6UFGNmNZg&list=PLZoTAELRMXVPS-dOaVbAux22vzqdgoGhG&index=2
+END TO END ML PROJECT WITH DEPLOYMENT-GITHUB AND CODE SET UP
+
+Agenda
+1. Setup the GitHub {repository}
+a. new environment
+b. setup.py
+c. requirements.txt
+
+2. Src folder and build the package
+
+Buat environment dulu
+conda create -p venv python==3.8 -y
+conda activate venv/
+
+or create a new repository on the command line
+echo "# mlproject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/dwinanapitupulu/mlproject.git
+git push -u origin main
+cek dulu git globalnya apakah sudah sync atau tidak
+git config --global user.email
+
+##narik data
+git pull
+
+#install requirements
+pip install -r requirements.txt
