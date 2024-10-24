@@ -35,5 +35,18 @@ git config --global user.email
 ##narik data
 git pull
 
+#jika ada yg mau diupload
+git add .
+git status
+git commit -m "comment nya apa"
+git push -u origin main
+
 #install requirements
 pip install -r requirements.txt
+
+
+
+PART 2
+End To End ML Project With Deployment-Project Structure, Logging And Exception Handling
+Cara mengaktifkan conda
+conda activate url_file
