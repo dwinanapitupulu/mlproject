@@ -50,3 +50,16 @@ PART 2
 End To End ML Project With Deployment-Project Structure, Logging And Exception Handling
 Cara mengaktifkan conda
 conda activate url_file
+
+DATA TRANSFORMATION
+using to handling numerical values and categorical values
+Numerical Pipeline
+-Handling Missing Value using Median
+- Standard Scaler
+Categorical Pipeline
+-Handling Missing Value using Imputer
+- Using One hOt Encoding
+- Standard Scaler
+
+
+
